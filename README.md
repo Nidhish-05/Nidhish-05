@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Nidhish Bansal
-- 👀 I’m interested in C/java/html/css/javascript
-- 🌱 I’m currently learning java
+- 👀 I’m interested in C/C++/html/css/javascript
+- 🌱 I’m currently learning DSA
 - 📫 How to reach me: Email:nidhishbansal05@gmail.com
 - ⚡ Fun fact: I have a passion for technology. I never get bored with it. I repeat NEVER!
 - Feel free to reach me regarding any query.
