@@ -17,7 +17,7 @@
 
 ```yaml
 name: Nidhish
-role: B.Tech CSE Student @ MAIT, Delhi (2023 - 2027)
+role: B.Tech Computer Science and Technology Student @ MAIT, Delhi (2023 - 2027)
 minor: Machine Learning & Data Analytics (MLDA)
 focus: Data Science · Data Analytics · Machine Learning · MLOps
 flagship_projects:
