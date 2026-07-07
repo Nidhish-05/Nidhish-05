@@ -19,71 +19,60 @@
 name: Nidhish
 role: B.Tech CSE Student @ MAIT, Delhi (2023 - 2027)
 minor: Machine Learning & Data Analytics (MLDA)
-focus: Data Analytics · Data Science · Machine Learning
-currently_building: Project Vritti — real-time financial sentiment & stock signal pipeline
+focus: Data Science · Data Analytics · Machine Learning · MLOps
+flagship_projects:
+  - Project Vritti: real-time financial sentiment & stock signal pipeline (FinBERT · FastAPI · TimescaleDB)
+  - Project Vaayu: real-time air pollution intelligence system (Apache Spark · Random Forest · XGBoost)
 mindset: "Every dataset has a story. I just build the pipeline to tell it."
 fun_fact: Would've been a teacher in another life 📚
 ```
 
-- 🔭 Currently building **Project Vritti** — a real-time financial sentiment & stock-signal pipeline (FinBERT + FastAPI + TimescaleDB)
-- 🌱 Sharpening skills in **Apache Spark, XGBoost, and MLOps**
+- 🔭 Building **end-to-end ML pipelines** — from data ingestion and feature engineering to model training and Dockerized deployment
+- 📈 **Project Vritti**: real-time NLP financial sentiment pipeline processing 1,000+ headlines/day, generating BUY/HOLD/SELL signals
+- 🌫️ **Project Vaayu**: air-quality forecasting system across 272 Delhi wards — Top 25 of 35,000+ teams at India Innovates 2026
 - 🏆 Selected for **Amazon ML Summer School 2026** — top ~3,000 of 134,100+ applicants nationwide
-- 🎯 Actively seeking **Data Analytics / Data Science internship roles**
+- 🎯 Actively seeking **Data Science / Data Analytics / ML internship & placement** roles
 - ⚡ Fun fact: I do my best debugging after midnight 🌙
 
 ---
 
-### 🛠️ Featured Projects
+### 🛠️ Flagship Projects
 
-<table>
-<tr>
-<td width="50%">
+<details open>
+<summary><b>📈 Project Vritti — Real-Time Financial Sentiment & Stock Signal Pipeline</b></summary>
+<br>
 
-**🌫️ Project Vaayu**
-Real-time air pollution intelligence system
-- 272-ward pipeline · Random Forest 87%+ accuracy
-- Gradient Boosting AQI forecasting
-- 🏅 Top 25 / 35,000+ teams — India Innovates 2026
-- Presented to cabinet ministers
+> A zero-cost, self-hosted alternative to $200–500/month NLP signal tools — targeting the $14B+ retail analytics market.
 
-`Apache Spark` `FastAPI` `XGBoost` `InfluxDB`
+- 🔄 **Dual-stream ingestion**: fuses live financial news (NewsAPI) with tick-level market data from the **Massive API** (formerly Polygon.io) for a 5-ticker watchlist, processing **1,000+ headlines/day** via async Python — migrated off a rate-limited, scraping-based Yahoo Finance feed
+- 🧠 **FinBERT (HuggingFace Transformers)** for headline sentiment scoring, into **TimescaleDB hypertables** with time-partitioned storage
+- 📊 Rolling **1h / 6h / 24h** sentiment windows with **exponential decay weighting**, fused with price-delta calculations to generate **BUY / HOLD / SELL** signals
+- ⚙️ **FastAPI** REST backend with auto-generated Swagger docs, live **Streamlit dashboard**, fully **Dockerized**
+- 🚀 End-to-end **GitHub Actions CI/CD**: lint → test → build → deploy
 
-</td>
-<td width="50%">
+`FinBERT` `FastAPI` `TimescaleDB` `Streamlit` `Docker` `GitHub Actions` `NewsAPI`
 
-**🎬 Moviefy**
-Scalable movie recommendation engine
-- Spark MLlib ALS · RMSE 0.81
-- TF-IDF + Cosine Similarity content filtering
-- FastAPI REST backend on MovieLens-25M
+</details>
 
-`PySpark` `Scikit-learn` `PostgreSQL`
+<details open>
+<summary><b>🌫️ Project Vaayu — Real-Time Air Pollution Intelligence System</b></summary>
+<br>
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+> Presented to cabinet-level government officials · targets 15–20% AQI reduction with modelled savings of **~₹120 Cr/year** across Delhi's 20M+ residents.
 
-**📈 Project Vritti** *(in progress)*
-Real-time financial sentiment & stock signal pipeline
-- FinBERT sentiment scoring
-- spaCy NER · TimescaleDB · Docker
+- 🏗️ End-to-end **Apache Spark ETL** pipeline ingesting IoT sensor, weather API, and satellite feeds across **272 Delhi city wards**, stored in **InfluxDB** for real-time ward-level AQI monitoring
+- 🌲 **Random Forest** source-attribution classifier — **98.74% accuracy**, 98.14% weighted F1, 0.9676 ROC-AUC
+- 📉 **XGBoost** forecasting model — **R² = 0.9195**, RMSE 18.57 µg/m³, MAPE 8.14% (chronological 80/20 evaluation)
+- ⚡ Deployed via **FastAPI** with Scikit-learn preprocessing for real-time alerting
+- 🏅 **Top 25 of 35,000+ teams** — India Innovates 2026 (Urban Solutions)
 
-`FinBERT` `FastAPI` `TimescaleDB` `Docker`
+`Apache Spark (PySpark)` `Random Forest` `XGBoost` `InfluxDB` `FastAPI` `Scikit-learn`
 
-</td>
-<td width="50%">
+</details>
 
-**🏘️ Aastha Kunj RWA Platform**
-Solo-built community management platform for 600+ residents
-- Normalized schema · JWT role-based auth
-- Live admin analytics dashboard (6 KPIs)
+<br>
 
-`React` `TypeScript` `Node.js` `PostgreSQL`
-
-</td>
-</tr>
-</table>
+<sub>Also built: **Moviefy** (PySpark ALS movie recommender, RMSE 0.81) · **Aastha Kunj RWA Platform** (solo full-stack community system for 600+ residents, React/TypeScript/Node.js/PostgreSQL)</sub>
 
 ---
 
@@ -109,20 +98,26 @@ Solo-built community management platform for 600+ residents
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/TimescaleDB-FDB515?style=for-the-badge&logo=timescale&logoColor=black" />
+  <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
 </p>
 
 ---
 
 ### 🏆 Achievements
 
+- ✅ **Amazon ML Summer School 2026** Scholar (Top ~2.2%)
 - 🥇 **Top 25 / 35,000+ teams** — India Innovates 2026
 - 🎖️ **Letter of Merit** — Network Bulls 2025 (CEO Award)
 - 🥉 **Top 10 / 1,000+** — Visionary Hackathon 2024 (Mercer Mettl)
-- ✅ **Amazon ML Summer School 2026** Scholar (Top ~2.2%)
-- 📜 Certified in Data Analytics, DS/ML/DL/NLP/MLOps, Big Data Analytics & Full Stack Web Dev
+- 📜 Certified in Data Analytics, Data Science/Machine Learning/Deep Learning/NLP/MLOps, Big Data Analytics & Full Stack Web Dev
 
 ---
 
@@ -150,7 +145,7 @@ Solo-built community management platform for 600+ residents
 
 ### 🎮 When I'm Not Building
 
-☕ Late-night coder · 🎮 Genshin Impact · 🎬 *Jab We Met* on loop · 📺 The Big Bang Theory rewatcher
+☕ Late-night coder · 🎮 Genshin Impact · 🎬 *Jab We Met* on loop · 📺 Anime rewatcher
 
 ---
 
