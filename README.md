@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Nidhish</h1>
+<h1 align="center">Hi 👋, I'm Nidhish Bansal</h1>
 <h3 align="center">Data Science & ML Enthusiast | Building things that turn raw data into decisions</h3>
 
 <p align="center">
@@ -16,7 +16,7 @@
 ### 🚀 About Me
 
 ```yaml
-name: Nidhish
+name: Nidhish Bansal
 role: B.Tech Computer Science and Technology Student @ MAIT, Delhi (2023 - 2027)
 minor: Machine Learning & Data Analytics (MLDA)
 focus: Data Science · Data Analytics · Machine Learning · MLOps
@@ -133,12 +133,12 @@ fun_fact: Would've been a teacher in another life 📚
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-github-username&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nidhish-05&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nidhish-05&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=tokyonight&hide_border=true" width="60%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nidhish-05&layout=compact&theme=tokyonight&hide_border=true" width="60%" />
 </p>
 
 ---
@@ -152,8 +152,8 @@ fun_fact: Would've been a teacher in another life 📚
 ### 📫 Let's Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/nidhish-bansal-906a83298/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:nidhishbansal05@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 <p align="center"><i>"Every dataset has a story — I just build the pipeline to tell it."</i></p>
