@@ -126,20 +126,7 @@ fun_fact: Would've been a teacher in another life 📚
 - 🎓 Team Lead, **Alumni Cell** @ MAIT
 - 📋 Secretary, **Under 25 MAIT**
 - 🎨 Graphics Team, **Udaan** (Sports Society)
-- 🌱 Co-Founder & COO, **Metro Growr** — hydroponics & smart irrigation awareness
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nidhish-05&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nidhish-05&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nidhish-05&layout=compact&theme=tokyonight&hide_border=true" width="60%" />
-</p>
+- 🧑‍💻 Former Co-head of Operations, **TechXTract** @ MAIT 
 
 ---
 
