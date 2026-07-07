@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Nidhish</h1>
-<h3 align="center">Data Analytics & ML Enthusiast | Building things that turn raw data into decisions</h3>
+<h3 align="center">Data Science & ML Enthusiast | Building things that turn raw data into decisions</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=B.Tech+CSE+%40+MAIT+Delhi+(2023-27);Data+Analytics+%7C+Machine+Learning;Turning+messy+data+into+clean+signal;Amazon+ML+Summer+School+2026+Scholar" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=B.Tech+CST+%40+MAIT+Delhi+(2023-27);Data+Science+%7C+Machine+Learning;Turning+messy+data+into+clean+signal;Amazon+ML+Summer+School+2026+Scholar" alt="Typing SVG" />
 </p>
 
 <p align="center">
